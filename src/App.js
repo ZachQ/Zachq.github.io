@@ -27,29 +27,40 @@ class App extends Component {
                     <Divider horizontal inverted>Skills</Divider>
                 </Segment>
 
-                <Grid columns='three' stackable divided>
+                <Grid columns='three' stackable divided padded>
                     <p/>
                     <Grid.Row>
-                        <Grid.Column>
+                        <Grid.Column textAlign='left'>
                             <Icon.Group>
                                 <Icon size='huge' name='laptop'/>
                             </Icon.Group>
                             <p/>
-                            I enjoy working with Java and Spring Framework for backend development and Javascript,
-                            React/Redux for the front end.
-                            I also enjoy search technologies and have extensive knowledge as an Endeca developer for 5
-                            years.
+                            Java
+                            <br/>Spring Boot
+                            <br/>Spring
+                            <br/>Javascript
+                            <br/>React
+                            <br/>Redux
+                            <br/>HTML
+                            <br/>CSS
+                            <br/>SQL
+                            <br/>Endeca
+                            <br/>Bash Scripting
+                            <br/>Groovy configuration
                         </Grid.Column>
-                        <Grid.Column>
+                        <Grid.Column textAlign='left'>
                             <Icon.Group>
                                 <Icon size='huge' name='line chart'/>
                             </Icon.Group>
                             <p/>
-                            I have over 6 years of software development experience in Fortune 100 companies.
-                            I have experience as the search and navigation technical lead for a Fortune 50 retail
-                            company.
-                            I am currently a full-stack developer utilizing Extreme Programming (XP), TDD and Pair
-                            Programming.
+                            <br/>Pair Programming
+                            <br/>Test Driven Development (TDD)
+                            <br/>Extreme Programming (XP)
+                            <br/>Agile / Scrum
+                            <br/>Waterfall
+                            <br/>Continuous Integration / Continuous Delivery using Jenkins
+                            <br/>Gradle / Maven
+                            <br/>
                         </Grid.Column>
                         <Grid.Column>
                             <Icon.Group>
