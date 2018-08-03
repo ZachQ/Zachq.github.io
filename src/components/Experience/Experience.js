@@ -61,6 +61,28 @@ class Experience extends Component {
                         </Grid.Row>
                     </Grid>
                 </Segment>
+                <Segment basic padded size='large' textAlign='left'>
+                    <Grid divided='vertically' verticalAlign='middle' columns='equal'>
+                        <Grid.Row columns={2}>
+                            <Grid.Column>
+                                <Item.Image id='verizon-logo' src='verizonWireless.png'/>
+                            </Grid.Column>
+                            <Grid.Column>
+                                Linux Administrator Intern
+                            </Grid.Column>
+                        </Grid.Row>
+                        <Grid.Row>
+                            <Item.Content verticalAlign='middle'>
+                                Unix Administrator for Verizon Wireless data center
+                                <ul>
+                                    <li>Managed 30+ unix servers</li>
+                                    <li>Patched, restored, updated, and fixed servers</li>
+                                    <li>Wrote scripts in Perl and C-Shell for auditing purposes</li>
+                                </ul>
+                            </Item.Content>
+                        </Grid.Row>
+                    </Grid>
+                </Segment>
             </div>
         )
     }

@@ -27,10 +27,10 @@ class App extends Component {
                     <Divider horizontal inverted>Skills</Divider>
                 </Segment>
 
-                <Grid columns='three' stackable divided padded>
+                <Grid columns='two' stackable divided padded>
                     <p/>
                     <Grid.Row>
-                        <Grid.Column textAlign='left'>
+                        <Grid.Column textAlign='center'>
                             <Icon.Group>
                                 <Icon size='huge' name='laptop'/>
                             </Icon.Group>
@@ -48,7 +48,7 @@ class App extends Component {
                             <br/>Bash Scripting
                             <br/>Groovy configuration
                         </Grid.Column>
-                        <Grid.Column textAlign='left'>
+                        <Grid.Column textAlign='center'>
                             <Icon.Group>
                                 <Icon size='huge' name='line chart'/>
                             </Icon.Group>
@@ -62,14 +62,14 @@ class App extends Component {
                             <br/>Gradle / Maven
                             <br/>
                         </Grid.Column>
-                        <Grid.Column>
-                            <Icon.Group>
-                                <Icon size='huge' name='student'/>
-                            </Icon.Group>
-                            <p/>
-                            I have a Computer Science & Engineering degree from The Ohio State University with
-                            specialization in software development.
-                        </Grid.Column>
+                        {/*<Grid.Column>*/}
+                            {/*<Icon.Group>*/}
+                                {/*<Icon size='huge' name='student'/>*/}
+                            {/*</Icon.Group>*/}
+                            {/*<p/>*/}
+                            {/*I have a Computer Science & Engineering degree from The Ohio State University with*/}
+                            {/*specialization in software development.*/}
+                        {/*</Grid.Column>*/}
                     </Grid.Row>
                 </Grid>
 
